@@ -1,0 +1,453 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #eaeaea;
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 24px;
+    }
+    body{
+        font-size: 14px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.maindiv{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    background-color: #eaeaea;
+    color: #000000;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    position: fixed;
+    top: 0;
+}
+
+header{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    font-family: serif;
+    padding: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+header .tosi{
+    background-color: #ffffff;
+    color: #908d8d;
+    font-size: 20px;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+
+nav a:hover{
+    background-color: #dddcdc;
+}
+
+
+.slide-container1 {
+    overflow: hidden;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .slide-wrapper {
+    display: flex;
+    animation: slide-flow 40s linear infinite;
+  }
+  
+  .slide1 {
+    width: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  @keyframes slide-flow {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+
+.seconddiv{
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px #aea9a9;
+}
+
+.seconddiv{
+    display: flex;
+    border-radius: 5px;
+}
+
+.gazou{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-left: 30px;
+}
+
+/*music*/
+.musicdiv{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.menu{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    width: 45%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu button{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.reikure{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.reikure img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.reikure2{
+    margin-left: 40px;
+    padding: 0;
+    width: 80%;
+}
+
+.doba button{
+    background-color: #000000;
+    margin-top: 75px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*music 各ページ*/
+.mrsmusic{       
+    padding: 20px;  
+}
+
+.musicrank{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.mrsmusic h1{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.musicrank img{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+.music123 img{
+    height: 150px;
+    width: 150px;
+}
+
+.music123{
+    background-color: #fdc9c9;
+    color: #000000;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 5px #d1cccc;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.music123 p{
+    margin-left: 50px;
+}
+
+.music123 button{
+    background-color: #5eae5a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: right;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.musicrank button{
+    padding: 20px;
+    margin-left: 100%;
+    background-color: rgb(81, 157, 90);
+    border: none;
+    display: flex;
+    border-radius: 5px;
+}
+
+.musicbotan form button{
+    background-color: hsla(142, 58%, 59%, 0.99);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*food*/
+.fooddiv{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.fooddiv img{
+    height: 300px;
+    width: 400px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.foodsab{
+    text-align: center;
+    margin: auto;
+}
+
+/*hobby*/
+.hobbydiv{
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.hobbydiv2{
+    margin: 20px;
+}
+
+.hobbysab{
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px#908d8d;
+}
+
+.hobbysab p{
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.hobbysab img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.hobbysecond{
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px#908d8d;
+}
+
+.hobbysecond img{
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+
+
+/*anime*/
+.slideshow-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.slideshow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+}
+
+.slide.active {
+    opacity: 1;
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: white;
+    text-align: center;
+}
+
+/* ナビゲーションボタンのスタイル */
+.slide-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+    z-index: 1;
+}
+
+.slide-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* インジケーターのスタイル */
+.slide-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dot.active {
+    background: white;
+}
+
+.slide-content button{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #807d7d;
+    border-radius: 5px;
+}
