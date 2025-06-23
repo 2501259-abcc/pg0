@@ -39,6 +39,8 @@ header{
     width: 100%;
     box-sizing: border-box;
     text-align: center;
+    position: fixed;
+    top: 90px;
 }
 
 nav ul{
@@ -82,6 +84,8 @@ nav a:hover{
     display: flex;
     align-items: center;
     margin-top: 100px;
+    position: fixed;
+    top: 60px;
   }
   
   .slide-wrapper {
@@ -105,21 +109,11 @@ nav a:hover{
       transform: translateX(-50%);
     }
   }
-  
 
 .seconddiv{
-    background-color: #ffffff;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin: 20px;
-    box-shadow: 5px 5px 5px 5px #aea9a9;
-}
-
-.seconddiv{
-    display: flex;
     border-radius: 5px;
+    text-align: center;
+    margin: auto;
 }
 
 .gazou{
@@ -129,9 +123,61 @@ nav a:hover{
 }
 
 .name{
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 400px;
+}
+
+.name img{
+    float: left;
+}
+
+.jimoto{
+    background-color: #7bc29b;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.seconddiv h1{
+    text-align: left;
+    margin-left: 350px;
+}
+
+.seconddiv p{
+    text-align: left;
+    margin-left: 350px;
+}
+
+.seconddiv h2{
+    text-align: left;
+    margin-left: 350px;
+}
+
+.famasspot{
+    background-color: #f8f3d9;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.famasspot img{
+    float: left;
     margin-left: 30px;
 }
 
+.famasspot h2{
+    margin-left: 400px;
+}
+
+.famasspot p{
+    margin-left: 400px;
+}
 /*music*/
 .musicdiv{
     box-sizing: border-box;
@@ -184,18 +230,15 @@ nav a:hover{
 
 .reikure2{
     margin-left: 40px;
-    padding: 0;
     width: 80%;
 }
 
 .doba button{
     background-color: #000000;
     margin-top: 75px;
+    margin-right: 20%;
     border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 /*music 各ページ*/
@@ -281,6 +324,7 @@ button a{
     justify-content: space-between;
     margin-top: 150px;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .fooddiv img{
@@ -305,28 +349,48 @@ button a{
     margin: 20px;
 }
 
-.hobbysab{
+.hobbysab1{
     background-color: #ffffff;
     padding: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 95px;
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px#908d8d;
+    background-image: url(image/ongaku2.jpg);
+    background-size: cover;
 }
 
-.hobbysab p{
-    margin-left: 20%;
-    font-size: 20px;
+.hobbysab2{
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 95px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px#908d8d;
+    background-image: url(image/kintore2.jpg);
+    background-size: cover;
 }
 
-.hobbysab img{
+.hobbysab h1 p{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.hobbysab1 img{
     height: 200px;
     width: 300px;
     float: left;
     margin-right: 20px;
 }
 
-.hobbysecond{
+.hobbysab2 img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.hobbysecond1{
     background-color: #ffffff;
     padding: 20px;
     padding-bottom: 90px;
@@ -334,9 +398,29 @@ button a{
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px#908d8d;
+    background-image: url(image/yuhiyo.png);
+    background-size: cover;
 }
 
-.hobbysecond img{
+.hobbysecond1 img{
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+
+.hobbysecond2{
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px#908d8d;
+    background-image: url(image/badomi.png);
+    background-size: cover;
+}
+
+.hobbysecond2 img{
     height: 200px;
     width: 300px;
     float: right;
@@ -427,6 +511,7 @@ button a{
     justify-content: center;
     gap: 10px;
     z-index: 1;
+    margin-left: 3%;
 }
 
 .dot {
@@ -451,3 +536,24 @@ button a{
     background-color: #807d7d;
     border-radius: 5px;
 }
+
+/*sport*/
+.sportdiv{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sportdiv img{
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.sportdiv2 h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
